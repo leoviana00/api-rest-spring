@@ -1,0 +1,4 @@
+
+FROM mysql:5.7
+LABEL MANTAINER "leonardoviana00@hotmail.com"
+ENV MYSQL_ROOT_PASSWORD 123456 
