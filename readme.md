@@ -90,3 +90,44 @@ docker run -d -v $(pwd)/data:/var/lib/mysql --rm --name mysql-spring -p 3306:330
 - Utilize a porta do host que foi mapeada com a do container, no exemplo ficou a 3306 mesmo;
 - Utilize a senha root definida no Dockerfile;
 - Teste a conexão.
+
+## Rotas
+
+- Health Check
+- Método: Get
+```
+http://localhost:8080/api/actuator/health
+```
+
+- Listar Clientes
+- Método: Get
+```
+http://localhost:8080/api/clientes
+```
+
+- Atualizar Clientes
+- Método: Post
+```
+http://localhost:8080/api/clientes/3
+```
+- Adicionar Clientes
+- Método: Post
+```
+http://localhost:8080/api/clientes
+```
+
+- Deletar Clientes
+- Método: Del
+```
+http://localhost:8080/api/clientes/4
+```
+
+- Buscar Clientes
+- Método: Get
+```
+http://localhost:8080/api/clientes/3
+```
+
+
+
+- 
