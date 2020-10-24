@@ -12,7 +12,8 @@ target/
 .settings
 .springBeans
 .sts4-cache
-
+.metadata
+.mvn
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -32,5 +33,7 @@ build/
 ### VS Code ###
 .vscode/
 
-### Maven ###
-.mvn/
+
+
+
+
