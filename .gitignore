@@ -5,4 +5,6 @@
 !src
 !src/**/*
 !pom.xml
-!imagens
+!imagens/
+!*.png
+
