@@ -50,7 +50,7 @@ $ source /etc/environment
 $ echo $JAVA_HOME
 ```
 
-## Install Spring Tools SUit 4
+## Install Spring Tools Suit 4
 ![](./imagens/sts.png)
 
 - Download https://spring.io/tools latests
