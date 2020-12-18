@@ -25,7 +25,6 @@
 - Worckbench
 - Docker
 ```
-
 ## Install OpenJDK
 
 - Instalação do OpenJDK-11
